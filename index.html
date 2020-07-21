@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>IM Escher</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="icon" href="img/favicon.ico" type="image/ico">
+		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+		<link rel="manifest" href="img/manifest.json">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	</head>
+
+	<body>
+		<div id="toolbar">
+			<table>
+				<tr><td><div id="colors">&nbsp;<b><font color="#FF0000">Paint Color: </font></b><input type="color" style="border:1px solid #ff0000" value="#c42121" name="myColor" id="myColor">
+			</div></td></tr>
+			<tr><td><div id="color2"><font color="#2E2EFE"><b>Background: </font></b><input type="color" style="border:1px solid #2E2EFE" value="#ffffff" name ="myColor2" id="myColor2">
+			</div></td></tr></table>
+			<div id="range">Size: 1<input type="range" id="myRange" value="5" min="1" max="100">100</div>
+			<button id="brush"><img src="img/brush.png"></button>
+			<button id="eraser"><img src="img/eraser.png"></button>
+			<button id="paint"><img src="img/paint.png"></button>
+                         <button id="line"><img src="img/line.png"></button>
+			<a href="" id="saveLink"><button id="save">Save</button></a>
+			<button id="reset">Clear</button>
+		<br />
+		</div>
+		<canvas id="canvas">It looks like your browser does not support canvas.  Please upgrade your browser.</canvas>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+
+</html>
